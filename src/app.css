@@ -1,3 +1,19 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+body {
+	background-color: #2B2E32;
+	font-family: 'Google Sans';
+	@apply text-lg;
+}
+
+.h1 {
+	@apply font-bold text-9xl text-white leading-[6.5rem] tracking-[-0.6rem];
+}
+
+.text-stroke-white {
+	color: transparent;
+	text-stroke: 0.75px #fff;
+	-webkit-text-stroke: 0.75px #fff;
+}
